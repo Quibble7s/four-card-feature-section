@@ -1,0 +1,37 @@
+#header {
+  width: 35%;
+  margin-top: 1.777rem;
+}
+#header .header-one {
+  font-weight: 400;
+  color: #a3a5ae;
+  text-align: center;
+}
+#header .header-two {
+  font-weight: 600;
+  color: #4c4e61;
+  text-align: center;
+}
+#header .header-company-desc {
+  font-weight: 400;
+  color: #a3a5ae;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #header {
+    margin-top: 1.777rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  #header .header-one {
+    font-size: 1.6rem;
+  }
+  #header .header-two {
+    font-size: 1.7rem;
+  }
+  #header .header-company-desc {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,20 @@
+@use '../abstract/index' as *;
+
+#header{
+    width: 35%;
+    margin-top: 1.777rem;
+    .header-one{ @include fontStyle($regular, $GrayishBlue, center); }
+    .header-two{ @include fontStyle($semiBold, $VeryDarkBlue, center); }
+    .header-company-desc{ @include fontStyle($regular, $GrayishBlue, center); }
+}
+
+@media (max-width: 768px){
+    #header{
+        margin-top: 1.777rem;
+        width: 100%;
+        padding: 1rem;
+        .header-one{font-size: 1.6rem;}
+        .header-two{font-size: 1.7rem; }
+        .header-company-desc{ text-align: left;  font-size: 1.1rem; }
+    }
+}
